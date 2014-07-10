@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>mixi talk | Work</title>
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="js/alpha.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.clImg img:gt(0)').hide();
+	setInterval(function() {
+		$('.clImg :first-child').fadeOut().next('img').fadeIn().end().appendTo('.clImg');
+	},5000);
+});
+</script>
+
+</head>
+<body>
+
+<a name="top" id="top"></a>
+
+<section id="mixi-talk" class="mixi-talk">
+<div class="btn-home">
+<a href="index.html" class="btn">back to home</a>
+</div>
+<div class="cover-logo">
+<h1>mixi Talk</h1>
+</div>
+<a href="#contents" class="button alpha scroll">▼</a>
+</section>
+
+
+<a name="contents" id="contents"></a>
+
+<section="introduction">
+<div class="content">
+<h2>INTRODUCTION</h2>
+<p>iPhone向けアプリ「mixi トーク」のリリース後の機能追加やデザイン回収を担当しました。</p>
+<p><img src="img/th_mixitalk001.jpg" alt="" /></p>
+<p>mixiらしいオレンジのトーンとフラットなデザインを踏襲しつつ、各ボタンを押しやすくかつ使いやすくなるようにしました。具体的にチャットルームでのトーク画面にて、ハートアイコンのボタンを気軽に押しやすくなるサイズに調整。<br />
+またチャットルーム作成画面、外部シェア画面などを新規に追加しました。</p>
+
+<h4>URL</h4>
+<p><a href="https://itunes.apple.com/jp/app/mixitoku-qu-weiya-xing-weiga/id698125920" target="_blank">https://itunes.apple.com/jp/app/mixitoku-qu-weiya-xing-weiga/id698125920</a></p>
+</div>
+</section>
+
+
+<section="works">
+<div class="content">
+<h2>WORK</h2>
+<ul>
+<li>
+<figure><a href="list_mixicommunity.html" class="alpha2" /><img src="img/th_mixicommunity.gif" width="" height="" alt="mixi community" /></a></figure>
+<h3>mixi community</h3>
+</li>
+<li>
+<figure><a href="list_mixigame.html" class="alpha2" /><img src="img/th_mixigame.gif" width="" height="" alt="mixi Game" /></a></figure>
+<h3>mixi Game</h3>
+</li>
+<li>
+<figure><a href="list_mixitalk.html" class="alpha2" /><img src="img/th_mixitalk.gif" width="" height="" alt="mixi talk" /></a></figure>
+<h3>mixi talk</h3>
+</li>
+</ul>
+</div>
+</section>
+
+
+<footer id="footer">
+
+<div class="page-top">
+<a href="#top" class="scroll"><img src="img/btn_top2.gif" width="58" height="58" alt="top" /></a>
+</div>
+<div class="footer-wrapper">
+<a href="mailto:paperkraft@gmail.com" title="paperkraft@gmail.com">paperkraft@gmail.com</a>
+</div>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Work</title>
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="js/alpha.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.clImg img:gt(0)').hide();
+	setInterval(function() {
+		$('.clImg :first-child').fadeOut().next('img').fadeIn().end().appendTo('.clImg');
+	},5000);
+});
+</script>
+
+</head>
+<body>
+
+<a name="top" id="top"></a>
+
+<section id="cover" class="cover">
+<div class="cover-logo">
+<h1>My Work</h1>
+</div>
+<a href="#contents" class="button alpha scroll">▼</a>
+</section>
+
+
+<a name="contents" id="contents"></a>
+
+<section="about">
+<div class="content">
+<h2>ABOUT</h2>
+<h3>Hiroshi Yamamoto / 山本 裕</h3>
+<p>2008年5月より株式会社mixiにフィーチャーフォンのデザイン・コーディング担当として入社。<br />
+</p>
+<p>2011年ごろより、フィーチャーフォンからスマートフォンやPCのデザインを担当していきました。<br />
+「イイネ」や「check」などのシェアボタンのデザインやゲーム好きだったためmixiゲーム全般のデザインを担当するなど、新プロダクトの製作にかかわることはすくなかったですが既存のサービスをデザイナーとして成長させることに力を注いでいきました。</p>
+<p>元々mixiのコミュニティが好きで入社した面もあり、コミュニティのデザイン担当を志望し退社する2013年3月までコミュニティのデザインを担当していました。</p>
+<p>趣味のひとつに、<a href="http://instagram.com/nekomimimist" target="_blank">カフェ巡り</a>をしており新しいお店を開拓するのに食べログを利用していたので、いちユーザーでありながらデザイナーとしてサービスの運営に関わりたい想いから入社志望しました。</p>
+</div>
+</section>
+
+
+<section="works">
+<div class="content">
+<h2>WORK</h2>
+<ul>
+<li>
+<figure><a href="list_mixicommunity.html" class="alpha2" /><img src="img/th_mixicommunity.gif" width="" height="" alt="mixi community" /></a></figure>
+<h3>mixi community</h3>
+</li>
+<li>
+<figure><a href="list_mixigame.html" class="alpha2" /><img src="img/th_mixigame.gif" width="" height="" alt="mixi Game" /></a></figure>
+<h3>mixi Game</h3>
+</li>
+<li>
+<figure><a href="list_mixitalk.html" class="alpha2" /><img src="img/th_mixitalk.gif" width="" height="" alt="mixi talk" /></a></figure>
+<h3>mixi talk</h3>
+</li>
+</ul>
+</div>
+</section>
+
+
+<section="skill">
+<div class="content">
+<h2>SKILL</h2>
+<img src="img/img_skill.gif" width="826" height="320" alt="" />
+</div>
+</section>
+
+
+<footer id="footer">
+
+<div class="page-top">
+<a href="#top" class="scroll"><img src="img/btn_top2.gif" width="58" height="58" alt="top" /></a>
+</div>
+<div class="footer-wrapper">
+<a href="mailto:paperkraft@gmail.com" title="paperkraft@gmail.com">paperkraft@gmail.com</a>
+</div>
+
+</footer>
+
+
+</body>
+</html>
